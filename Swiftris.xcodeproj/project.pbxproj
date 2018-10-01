@@ -26,6 +26,13 @@
 		4D388E5421629C3000A614E5 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D388E5321629C3000A614E5 /* Block.swift */; };
 		4D388E562162A58500A614E5 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D388E552162A58500A614E5 /* Shape.swift */; };
 		4D388E582162B5D300A614E5 /* SquareShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D388E572162B5D300A614E5 /* SquareShape.swift */; };
+		4D388E5A2162BFD800A614E5 /* Swiftris.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D388E592162BFD800A614E5 /* Swiftris.swift */; };
+		4D388E612162C9F700A614E5 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D388E5B2162C9F600A614E5 /* background@2x.png */; };
+		4D388E622162C9F700A614E5 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D388E5C2162C9F600A614E5 /* background.png */; };
+		4D388E632162C9F700A614E5 /* gameboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D388E5D2162C9F600A614E5 /* gameboard@2x.png */; };
+		4D388E642162C9F700A614E5 /* whitebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D388E5E2162C9F600A614E5 /* whitebg@2x.png */; };
+		4D388E652162C9F700A614E5 /* gameboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D388E5F2162C9F600A614E5 /* gameboard.png */; };
+		4D388E662162C9F700A614E5 /* whitebg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D388E602162C9F700A614E5 /* whitebg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +78,13 @@
 		4D388E5321629C3000A614E5 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 		4D388E552162A58500A614E5 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		4D388E572162B5D300A614E5 /* SquareShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareShape.swift; sourceTree = "<group>"; };
+		4D388E592162BFD800A614E5 /* Swiftris.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftris.swift; sourceTree = "<group>"; };
+		4D388E5B2162C9F600A614E5 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		4D388E5C2162C9F600A614E5 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		4D388E5D2162C9F600A614E5 /* gameboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gameboard@2x.png"; sourceTree = "<group>"; };
+		4D388E5E2162C9F600A614E5 /* whitebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whitebg@2x.png"; sourceTree = "<group>"; };
+		4D388E5F2162C9F600A614E5 /* gameboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameboard.png; sourceTree = "<group>"; };
+		4D388E602162C9F700A614E5 /* whitebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitebg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +135,12 @@
 		4D388E0E2162910400A614E5 /* Swiftris */ = {
 			isa = PBXGroup;
 			children = (
+				4D388E5C2162C9F600A614E5 /* background.png */,
+				4D388E5B2162C9F600A614E5 /* background@2x.png */,
+				4D388E5F2162C9F600A614E5 /* gameboard.png */,
+				4D388E5D2162C9F600A614E5 /* gameboard@2x.png */,
+				4D388E602162C9F700A614E5 /* whitebg.png */,
+				4D388E5E2162C9F600A614E5 /* whitebg@2x.png */,
 				4D388E4F216293DC00A614E5 /* Sprites.atlas */,
 				4D388E442162939300A614E5 /* Sounds */,
 				4D388E0F2162910400A614E5 /* AppDelegate.swift */,
@@ -135,6 +155,7 @@
 				4D388E5321629C3000A614E5 /* Block.swift */,
 				4D388E552162A58500A614E5 /* Shape.swift */,
 				4D388E572162B5D300A614E5 /* SquareShape.swift */,
+				4D388E592162BFD800A614E5 /* Swiftris.swift */,
 			);
 			path = Swiftris;
 			sourceTree = "<group>";
@@ -274,9 +295,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D388E4C2162939300A614E5 /* gameover.mp3 in Resources */,
+				4D388E622162C9F700A614E5 /* background.png in Resources */,
+				4D388E652162C9F700A614E5 /* gameboard.png in Resources */,
+				4D388E632162C9F700A614E5 /* gameboard@2x.png in Resources */,
+				4D388E612162C9F700A614E5 /* background@2x.png in Resources */,
 				4D388E1B2162910400A614E5 /* Main.storyboard in Resources */,
 				4D388E4E2162939300A614E5 /* bomb.mp3 in Resources */,
 				4D388E4D2162939300A614E5 /* theme.mp3 in Resources */,
+				4D388E662162C9F700A614E5 /* whitebg.png in Resources */,
+				4D388E642162C9F700A614E5 /* whitebg@2x.png in Resources */,
 				4D388E50216293DC00A614E5 /* Sprites.atlas in Resources */,
 				4D388E4A2162939300A614E5 /* drop.mp3 in Resources */,
 				4D388E1D2162910600A614E5 /* Assets.xcassets in Resources */,
@@ -311,6 +338,7 @@
 				4D388E162162910400A614E5 /* GameScene.swift in Sources */,
 				4D388E562162A58500A614E5 /* Shape.swift in Sources */,
 				4D388E52216297D200A614E5 /* Array2D.swift in Sources */,
+				4D388E5A2162BFD800A614E5 /* Swiftris.swift in Sources */,
 				4D388E5421629C3000A614E5 /* Block.swift in Sources */,
 				4D388E182162910400A614E5 /* GameViewController.swift in Sources */,
 				4D388E102162910400A614E5 /* AppDelegate.swift in Sources */,
