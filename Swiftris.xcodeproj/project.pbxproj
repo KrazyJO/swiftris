@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4D388E102162910400A614E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D388E0F2162910400A614E5 /* AppDelegate.swift */; };
-		4D388E122162910400A614E5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4D388E112162910400A614E5 /* GameScene.sks */; };
 		4D388E142162910400A614E5 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4D388E132162910400A614E5 /* Actions.sks */; };
 		4D388E162162910400A614E5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D388E152162910400A614E5 /* GameScene.swift */; };
 		4D388E182162910400A614E5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D388E172162910400A614E5 /* GameViewController.swift */; };
@@ -17,6 +16,12 @@
 		4D388E202162910600A614E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D388E1E2162910600A614E5 /* LaunchScreen.storyboard */; };
 		4D388E2B2162910700A614E5 /* SwiftrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D388E2A2162910700A614E5 /* SwiftrisTests.swift */; };
 		4D388E362162910700A614E5 /* SwiftrisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D388E352162910700A614E5 /* SwiftrisUITests.swift */; };
+		4D388E4A2162939300A614E5 /* drop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D388E452162939300A614E5 /* drop.mp3 */; };
+		4D388E4B2162939300A614E5 /* levelup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D388E462162939300A614E5 /* levelup.mp3 */; };
+		4D388E4C2162939300A614E5 /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D388E472162939300A614E5 /* gameover.mp3 */; };
+		4D388E4D2162939300A614E5 /* theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D388E482162939300A614E5 /* theme.mp3 */; };
+		4D388E4E2162939300A614E5 /* bomb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D388E492162939300A614E5 /* bomb.mp3 */; };
+		4D388E50216293DC00A614E5 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4D388E4F216293DC00A614E5 /* Sprites.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,6 @@
 /* Begin PBXFileReference section */
 		4D388E0C2162910400A614E5 /* Swiftris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D388E0F2162910400A614E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D388E112162910400A614E5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		4D388E132162910400A614E5 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		4D388E152162910400A614E5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		4D388E172162910400A614E5 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +57,12 @@
 		4D388E312162910700A614E5 /* SwiftrisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftrisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D388E352162910700A614E5 /* SwiftrisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftrisUITests.swift; sourceTree = "<group>"; };
 		4D388E372162910700A614E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D388E452162939300A614E5 /* drop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drop.mp3; sourceTree = "<group>"; };
+		4D388E462162939300A614E5 /* levelup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = levelup.mp3; sourceTree = "<group>"; };
+		4D388E472162939300A614E5 /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = "<group>"; };
+		4D388E482162939300A614E5 /* theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = theme.mp3; sourceTree = "<group>"; };
+		4D388E492162939300A614E5 /* bomb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bomb.mp3; sourceTree = "<group>"; };
+		4D388E4F216293DC00A614E5 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +113,9 @@
 		4D388E0E2162910400A614E5 /* Swiftris */ = {
 			isa = PBXGroup;
 			children = (
+				4D388E4F216293DC00A614E5 /* Sprites.atlas */,
+				4D388E442162939300A614E5 /* Sounds */,
 				4D388E0F2162910400A614E5 /* AppDelegate.swift */,
-				4D388E112162910400A614E5 /* GameScene.sks */,
 				4D388E132162910400A614E5 /* Actions.sks */,
 				4D388E152162910400A614E5 /* GameScene.swift */,
 				4D388E172162910400A614E5 /* GameViewController.swift */,
@@ -132,6 +143,18 @@
 				4D388E372162910700A614E5 /* Info.plist */,
 			);
 			path = SwiftrisUITests;
+			sourceTree = "<group>";
+		};
+		4D388E442162939300A614E5 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4D388E452162939300A614E5 /* drop.mp3 */,
+				4D388E462162939300A614E5 /* levelup.mp3 */,
+				4D388E472162939300A614E5 /* gameover.mp3 */,
+				4D388E482162939300A614E5 /* theme.mp3 */,
+				4D388E492162939300A614E5 /* bomb.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,10 +261,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D388E4C2162939300A614E5 /* gameover.mp3 in Resources */,
 				4D388E1B2162910400A614E5 /* Main.storyboard in Resources */,
-				4D388E122162910400A614E5 /* GameScene.sks in Resources */,
+				4D388E4E2162939300A614E5 /* bomb.mp3 in Resources */,
+				4D388E4D2162939300A614E5 /* theme.mp3 in Resources */,
+				4D388E50216293DC00A614E5 /* Sprites.atlas in Resources */,
+				4D388E4A2162939300A614E5 /* drop.mp3 in Resources */,
 				4D388E1D2162910600A614E5 /* Assets.xcassets in Resources */,
 				4D388E202162910600A614E5 /* LaunchScreen.storyboard in Resources */,
+				4D388E4B2162939300A614E5 /* levelup.mp3 in Resources */,
 				4D388E142162910400A614E5 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Swiftris/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -460,6 +489,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Swiftris/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
